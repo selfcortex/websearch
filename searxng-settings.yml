@@ -78,6 +78,3 @@ engines:
     engine: stackoverflow
     shortcut: so
     timeout: 10
-
-redis:
-  url: redis://redis:6379/0
