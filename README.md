@@ -72,7 +72,3 @@ docker compose pull && docker compose up -d
 docker compose down
 ```
 
-## Заметки
-- Образы закреплены на `:latest` — для воспроизводимости лучше прибить конкретные теги.
-- Redis в `settings.yml` указан (`redis://redis:6379/0`), но сервиса redis в compose нет:
-  limiter и кэш автокомплита работать не будут. Либо добавь контейнер redis, либо убери секцию.
